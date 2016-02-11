@@ -7,13 +7,11 @@ padding-top: 10px;
 margin-left: 50px;
 width: 700px;
 }
-.initially-showing {
+.initially-hidden {
   display: none;
 }
-.initially-hidden {
-  display: block;
-}
 
+}
 .clickable {
   cursor: pointer;
   color: #0088cc;

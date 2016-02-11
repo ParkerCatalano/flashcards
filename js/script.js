@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $("button#functionDef").click(function(){
     $("h2.func").append("<ul>definition for function</ul>")
   });
@@ -11,5 +12,6 @@ $(document).ready(function() {
   $("button#functionEsc").click(function(){
     $("h2.escape").append("<ul>definition for escape</ul>")
   });
+
 
 });
