@@ -1,6 +1,17 @@
 
+.col-md-3 {
+  margin:20px;
+  }
+.container {
+padding-top: 10px;
+margin-left: 50px;
+width: 700px;
+}
 .initially-showing {
   display: none;
+}
+.initially-hidden {
+  display: block;
 }
 
 .clickable {
@@ -9,7 +20,4 @@
 }
 .clickable:hover {
   text-decoration: underline;
-}
-li .initially-showing {
-  display: none;
 }
