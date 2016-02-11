@@ -1,13 +1,15 @@
-$(function() {
-  $(".clickable").click(function() {
-    $(".initially-showing").fadeToggle();
-    $(".initially-hidden").fadeToggle();
+$(document).ready(function() {
+  $("button#functionDef").click(function(){
+    $("h2.func").append("<ul>definition for function</ul>")
+  });
+  $("button#functionMethod").click(function(){
+    $("h2.meth").append("<ul>definition for method</ul>")
+  });
+  $("button#functionString").click(function(){
+    $("h2.string").append("<ul>definition for string</ul>")
+  });
+  $("button#functionEsc").click(function(){
+    $("h2.escape").append("<ul>definition for escape</ul>")
   });
 
-  $("button#functionDef").click(function() {
-    $("li").append("A JavaScript is a block of code designed to perform a particular task. A JavaScript function is executed when something invokes it calls it.");
-  });
-    $("button#functionDef").children("li").first().click(function() {
-      $(this).remove();
-  });
 });
