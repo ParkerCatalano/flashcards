@@ -10,3 +10,6 @@
 .clickable:hover {
   text-decoration: underline;
 }
+li .initially-showing {
+  display: none;
+}
